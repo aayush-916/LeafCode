@@ -1,6 +1,6 @@
 import './App.css'
-import Client from './components/client'
-import Contact from './components/contact'
+import Client from './components/Client'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import Nav from './components/Nav'
