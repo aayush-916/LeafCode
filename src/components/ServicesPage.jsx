@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react'
-import Contact from './contact'
+import Contact from './Contact'
 import Footer from './Footer'
 import Nav from './Nav'
 import Services from './Services'
