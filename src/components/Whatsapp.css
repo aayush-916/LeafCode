@@ -1,0 +1,37 @@
+
+.fixed-bottom-right2 {
+    position: fixed;
+    bottom: 4.8rem;
+    right: 0.8rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 20;
+  }
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 1.8rem;
+    right: 0.8rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 20;
+  }
+  
+  .whatsapp-button {
+  
+
+    border-radius: 50%;
+
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .whatsapp-button:hover {
+    transform: scale(1.2);
+  }
+  
+  .whatsapp-icon {
+    width: 2.5rem; 
+    height: 2.5rem;
+  }
+  

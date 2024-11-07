@@ -1,0 +1,76 @@
+.about-us {
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('/city.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.about-hero {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.hero-title2 {
+  margin-top: 60px;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+.about-sections {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #f0f0f0;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-item {
+  flex: 1 1 45%;
+  background: #333333;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.service-item h3 {
+  font-size: 1.4rem;
+  color: #03a9f4;
+}
+
+.service-item p {
+  color: #cccccc;
+  font-size: 1rem;
+}

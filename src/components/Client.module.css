@@ -1,0 +1,142 @@
+.main3{
+    background-color: rgb(242, 238, 238);
+}
+.hed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    
+}
+
+.hed h2{
+    color: #bd4b0d;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+.hed h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.client-review-section {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-review-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .review-card {
+    color: #555;
+    padding: 20px;
+  }
+  
+  .review-text {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #666;
+  }
+  
+  .client-name {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+
+  @media (max-width: 700px) {
+    .hed{
+        width: 80%;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .hed{
+        width: 95%;
+    }
+
+    .hed h1{
+        font-size: 17px;
+        padding-bottom: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .client-review-section {
+        padding: 20px 15px;
+    }
+    .review-card {
+        padding: 10px;
+      }
+  }
+
+
+
+
+
+  .marq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010101;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  
+  .marq marquee {
+    width: 100%;
+  }
+  
+  .marq img, .marq h2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 60px;
+    width: 150px; /* Adjust to preferred size */
+    height: auto;
+  }
+ 
+  .marq img {
+    max-width: 100%;
+    max-height: 50px; /* Consistent height for all logos */
+    object-fit: contain;
+  }
+  
+  .marq h2 {
+    font-size: 1.5rem;
+    color: rgb(87, 84, 84);
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  
+.cl h1{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
