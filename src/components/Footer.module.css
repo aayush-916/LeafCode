@@ -54,6 +54,7 @@
   .footer-details .contact-placeholder {
     color: #ffff;
   }
+
   
   .footer-social {
     display: flex;
@@ -175,5 +176,9 @@
       .footer-extra p {
         margin-right: 0px;
       }
+  }
+
+  .footer-details a {
+    color: white;
   }
   

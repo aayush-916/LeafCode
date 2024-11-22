@@ -14,8 +14,8 @@ function Footer() {
         <div className={styles['footer-details']}>
           <h3>Contact Us</h3>
           <p> 801503 RPS More Patna</p>
-          <p>Phone: <span className={styles['contact-placeholder']}>+91 7542019191</span></p>
-          <p>Email: <span className={styles['contact-placeholder']}>info@leafcode.in</span></p>
+          <p>Phone: <span className={styles['contact-placeholder']}><a href="tel:+917542019191">+91 7542019191</a></span></p>
+          <p>Email: <span className={styles['contact-placeholder']}><a href="support@leafcode.in">support@leafcode.in</a></span></p>
         </div>
 
         <div className={styles['footer-social']}>
@@ -26,13 +26,14 @@ function Footer() {
           <a href="https://twitter.com" target="_blank" className={styles['social-icon']} rel="noreferrer">
             <i className="fab fa-twitter"></i>
           </a> */}
-          <a href="https://linkedin.com" target="_blank" className={styles['social-icon']} rel="noreferrer">
+          <a href="https://www.linkedin.com/company/leafcodetech/" target="_blank" className={styles['social-icon']} rel="noreferrer">
             <i className="fab fa-linkedin-in"></i>
           </a>
           <a href="https://instagram.com" target="_blank" className={styles['social-icon']} rel="noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
         </div>
+        
 
         <div className={styles['footer-extra']}>
           <h3>More Information</h3>

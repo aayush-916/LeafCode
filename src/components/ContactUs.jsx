@@ -57,10 +57,10 @@ function ContactUs() {
             {/* Contact Info */}
             <div className={styles["contact-info"]}>
               <p className={styles["contact-details"]}>
-                <span>Email:</span> <a href="mailto:info@codeleaf.in">info@codeleaf.in</a>
+                <span>Email:</span> <a href="support@leafcode.in">support@leafcode.in</a>
               </p>
               <p className={styles["contact-details"]}>
-                <span>Phone:</span> <a href="tel:+917542919191">+91 7542 919191</a>
+                <span>Phone:</span> <a href="tel:+917542019191">+91 7542019191</a>
               </p>
             </div>
 

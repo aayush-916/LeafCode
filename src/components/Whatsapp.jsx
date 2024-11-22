@@ -5,7 +5,7 @@ function Whatsapp() {
    <>
     <div class="fixed-bottom-right2">
         <a
-          href="mailto:info@codeleaf.in"
+          href="mailto:support@leafcode.in"
           target="_blank"
           rel="noopener noreferrer"
           class="whatsapp-button"
