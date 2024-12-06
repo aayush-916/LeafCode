@@ -4,11 +4,19 @@ import Footer from './Footer';
 import Nav from './Nav';
 import Whatsapp from './Whatsapp';
 // import styles from './Portfolio.module.css'; // Only use styles from Portfolio.module.css here
-import styles from './Project.module.css'; // Only use styles from Portfolio.module.css here
+import styles from './Project.module.css';
+import { Helmet } from "react-helmet";
 
 function Portfolio() {
   return (
     <>
+    <Helmet>
+        <title>Portfolio - LeafCode Technology</title>
+        <meta
+          name="description"
+          content="Explore the portfolio of LeafCode Technology – the best website design, app development, and software company in Patna. View our successful projects and see how we deliver innovative IT solutions for businesses."
+        />
+      </Helmet>
       <Nav />
       <Whatsapp />
 

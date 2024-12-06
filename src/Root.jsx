@@ -8,11 +8,20 @@ import Project from './components/Project'
 import Services from './components/Services'
 import Tools from './components/Tools'
 import Whatsapp from './components/Whatsapp'
+import { Helmet } from "react-helmet";
 
 function App() {
 //https://cybertizeweb.com/
   return (
     <>
+    <Helmet>
+        <title>LeafCode Technology</title>
+        <meta
+          name="description"
+          content="LeafCode Technology - Your trusted partner for website design, app development, and software solutions in Patna. We specialize in modern, user-friendly websites, innovative apps, and comprehensive IT services to help businesses grow."
+        />
+      </Helmet>
+
       <Nav/>
       <Whatsapp/>
       <Home/>

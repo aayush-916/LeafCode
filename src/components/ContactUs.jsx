@@ -3,6 +3,7 @@ import styles from './ContactUs.module.css';
 import Whatsapp from './Whatsapp';
 import Nav from './Nav';
 import Footer from './Footer';
+import { Helmet } from "react-helmet";
 
 function ContactUs() {
   useEffect(() => {
@@ -77,6 +78,13 @@ function ContactUs() {
 
   return (
     <>
+    <Helmet>
+        <title>Contact - LeafCode Technology</title>
+        <meta
+          name="description"
+          content="Get in touch with LeafCode Technology – the best website design and app development company in Patna. Email us at support@leafcode.in or call +91 7542019191 for expert IT solutions tailored to your needs."
+        />
+      </Helmet>
       <Nav />
       <Whatsapp />
 
