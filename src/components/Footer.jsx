@@ -29,7 +29,7 @@ function Footer() {
           <a href="https://www.linkedin.com/company/leafcodetech/" target="_blank" className={styles['social-icon']} rel="noreferrer">
             <i className="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://instagram.com" target="_blank" className={styles['social-icon']} rel="noreferrer">
+          <a href="https://www.instagram.com/leafcodetechnology?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" className={styles['social-icon']} rel="noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
         </div>
