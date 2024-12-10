@@ -171,7 +171,7 @@ function Services() {
           <div class="service-card-content">
             <h3 class="service-card-title">Blockchain Development</h3>
             <p class="service-card-text">
-            We develop software for creating and managing blockchain nodes, designing decentralized applications (dApps), and crafting smart contracts for transaction execution.</p>
+            We develop Website , software Also for creating blockchain nodes, designing decentralized Website and crafting smart contracts for transaction execution.</p>
             <Link to="/contact">
             <button className="button-87">Discuss Project ➜</button>
             </Link>
