@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./Nav"; // Import your Nav component
 import Footer from "./Footer"; // Import your Footer component
 import styles from './About.module.css';
+import { Helmet } from "react-helmet";
 import { useEffect } from "react";
 
 function About() {
@@ -10,6 +11,13 @@ function About() {
   })
   return (
     <>
+    <Helmet>
+        <title>About Us - LeafCode Technology</title>
+        <meta
+          name="description"
+          content="LeafCode Technology - Your trusted partner for website design, app development, and software solutions in Patna. We specialize in modern, user-friendly websites, innovative apps, and comprehensive IT services to help businesses grow."
+        />
+      </Helmet>
       <Nav />
       <div className={styles["about-us"]}>
         <div className={styles["about-hero"]}>

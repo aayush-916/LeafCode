@@ -2,7 +2,6 @@ import React from "react";
 import './Services.css'
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 function Services() {
   return (
     <motion.div
@@ -13,13 +12,7 @@ function Services() {
         viewport={{ once: true }}
         id="services"
       >
-        <Helmet>
-        <title>Services - LeafCode Technology</title>
-        <meta
-          name="description"
-          content="Discover premium services at LeafCode Technology – the best website design, app development, software solutions, and SEO services in Patna. Empowering your business with innovative digital solutions."
-        />
-      </Helmet>
+        
 
       <h2 id="service" class="service-heading">
         Our <span>Services</span>
