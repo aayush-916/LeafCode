@@ -24,6 +24,7 @@ function Contact() {
 
       // Send data to your backend server (optional for additional storage)
       const response = await fetch('https://backend-leafcode.onrender.com/submit', {
+      //const response = await fetch('http://localhost:5000/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

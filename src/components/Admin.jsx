@@ -70,11 +70,11 @@ function Admin() {
                 <tbody>
                   {data.map((item) => (
                     <tr key={item.id} className={styles["data-row"]}>
-                      <td>{item.name}</td>
-                      <td>{item.number}</td>
+                      <td>{item.fullname}</td>
+                      <td>{item.mobile}</td>
                       <td>{item.email}</td>
-                      <td>{item.message}</td>
-                      <td>{new Date(item.date).toLocaleString()}</td>
+                      <td>{item.msg}</td>
+                      <td>{item.sub_date}</td>
                     </tr>
                   ))}
                 </tbody>
