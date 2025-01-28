@@ -22,18 +22,18 @@ function Contact() {
         📝 Message: ${msg || "No additional details provided"}
       `;
 
-      // Send data to your backend server (optional for additional storage)
-      const response = await fetch('https://backend-leafcode.onrender.com/submit', {
-      //const response = await fetch('http://localhost:5000/submit', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ name, number, email, msg }),
-      });
+      // // Send data to your backend server (optional for additional storage)
+      // const response = await fetch('https://backend-leafcode.onrender.com/submit', {
+      // //const response = await fetch('http://localhost:5000/submit', {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json',
+      //   },
+      //   body: JSON.stringify({ name, number, email, msg }),
+      // });
 
-      const serverResponse = await response.json();
-      console.log('Backend Response:', serverResponse);
+      // const serverResponse = await response.json();
+      // console.log('Backend Response:', serverResponse);
 
       // Send data to Telegram Bot
       const telegramResponse = await fetch(`https://api.telegram.org/bot7634903955:AAED40zzZpLRUl7IcsUxNFCtfXSNxZRFlbo/sendMessage`, {
