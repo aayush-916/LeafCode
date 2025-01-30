@@ -7,14 +7,15 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles['footer-content']}>
         <div className={styles['footer-brand']}>
-          <h2>LeafCode</h2>
+          <h2>Leafcode Technology</h2>
           <p>Your partner in innovative web and app development solutions.</p>
         </div>
 
         <div className={styles['footer-details']}>
           <h3>Contact Us</h3>
-          <p> 801503 RPS More Patna</p>
+          <p> 801503 RPS More Patna , Lane no.- 20 Mainpura, Danapur Patna </p>
           <p>Phone: <span className={styles['contact-placeholder']}><a href="tel:+917542019191">+91 7542019191</a></span></p>
+          <p>Email: <span className={styles['contact-placeholder']}><a href="aayush91620@gmail.com">aayush91620@gmail.com</a></span></p>
           <p>Email: <span className={styles['contact-placeholder']}><a href="support@leafcode.in">support@leafcode.in</a></span></p>
         </div>
 
