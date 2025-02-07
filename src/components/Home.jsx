@@ -7,12 +7,13 @@ import styles from './Home.module.css';
 function Home() {
   return (
     <>
+     <div style={{ overflow: "visible" }}>
       <motion.div
         className={styles.main}
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: 0.5 }} // Trigger when 50% of the element is visible
       >
         <div className={styles.tx}>
           <h1>
@@ -49,6 +50,7 @@ function Home() {
           <img src="./im2.gif" alt="Animation"/>
         </div>
       </motion.div>
+      </div>
     </>
   );
 }
