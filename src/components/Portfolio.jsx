@@ -29,6 +29,14 @@ function Portfolio() {
         </div>
         
         <div className={styles.grd}>
+        <div className={styles.crd}>
+            <a href='https://hrithviktravels.in/'>
+              <img src="/hrithvik.png" alt="Hrithvik Tour & Travels" />
+            </a>
+            <h3>Hrithvik Tour & Travels</h3>
+            <p>Tour & Travels Agency</p>
+          </div>
+
           <div className={styles.crd}>
             <a href='https://www.tachyonsecurity.eu/'>
               <img src="/techyon.png" alt="TechYon Security" />
