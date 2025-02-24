@@ -1,0 +1,8 @@
+User-agent: *  
+Disallow: /admin  
+Disallow: /feed 
+Disallow: /checkout  
+Disallow: /Support@leafcode.in  
+Allow: /
+
+Sitemap: https://leafcode.in/sitemap.xml
