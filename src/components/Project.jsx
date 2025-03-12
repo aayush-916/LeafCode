@@ -24,6 +24,14 @@ function Project() {
           </div>
 
           <div className={styles.crd}>
+            <a href='https://svmira.in/'>
+              <img src="/svmira.png" alt="svmira Construction" />
+            </a>
+            <h3>SVMIRA Construction</h3>
+            <p>Website for Construction Company</p>
+          </div>
+
+          <div className={styles.crd}>
             <a href='https://www.tachyonsecurity.eu/'>
               <img src="/techyon.png" alt="TechYon Security" />
             </a>
